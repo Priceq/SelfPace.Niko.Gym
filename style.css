@@ -1,0 +1,202 @@
+
+
+.about-you {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+    overflow: auto;
+}
+.motivational-img {
+    background-color: white;
+    padding-right: 100px;
+}
+
+.motive{
+    max-width: 500px;
+    height: 50vh;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.get-fit {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 225px;
+    font-family: Trattatello, fantasy;
+    font-size: 20px;
+}
+.triangle {
+    padding-top: 2px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 40px;
+    color: white;  
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+.mem {
+    padding-left: 120px;
+}
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: #fff;
+    font-family: 'chalkduster';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ #tablename{
+    font-family: 'chalkduster';
+    font-size: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+
+}
+
+#tablename{
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+    
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #212529,
+        0 0 80px #212529,
+        0 0 90px #212529,
+        0 0 100px #212529,
+        0 0 150px #212529;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+
+  nav a:hover{
+        font-size:40px;
+        font-size-adjust: 20px;
+        animation: flicker 1.5s infinite alternate;
+        color: #212529;
+    }
+
+    .do-it {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+        background-color: #212529;
+        margin-top: 100px;
+
+       
+    }
+    .get-up {
+        
+        width: 50%;
+        margin-left: 100px;
+        margin-top: 30px;
+        
+    }
+    .motivational-img {
+        padding-top: 20px;
+        margin-right: 80px;
+        background-color:#212529;
+       
+        
+
+    }
+
+    .abs{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        height: 880px;
+        max-width: 80vw;
+    }
+
+    .bord {
+        height: 900px;
+        width: 900px;
+        position: relative;
+        overflow: hidden;
+      }
+      .spinner {
+        position: absolute;
+        height: 90%;
+        width: 90%;
+        background: black;
+        top: 5%;
+        left: 5%;
+        transition: all 0.4s;
+      }
+      .go {
+        position: absolute;
+        height: 90%;
+        width: 90%;
+        background: white;
+        top: 5%;
+        left: 5%;
+      }
+      .bord:hover .spinner {
+        transform: rotate(90deg);
+        height: 800px;
+        width: 900px;
+        top: 1;
+        left: 0;
+      }
+
+      .go {
+        color: white;
+        font-family: 'chalkduster';
+        font-size: 60px;
+        animation: flicker 1.5s infinite alternate;
+        text-decoration: none;
+        padding-top: 40%;
+        padding-left: 20%;
+        display: flex;
+        justify-content: center;
+    
+      }
+.about-img {
+        display: flex;
+        justify-content: flex-start;
+}
+.aboot {
+    max-width: 45%;
+    height: 100vh;
+}
+
+.about {
+        padding: 100px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin-left: 250px;
+        padding-right: 400px;
+        padding-bottom: 10px;
+        border: 1px solid;
+        background-color: white;
+      }
+
+ 
